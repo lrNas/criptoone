@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+#logo{
+    margin:1.8vmax;
+}
+.outputtitulo{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.inputs{
+    margin: 2%;
+    padding:2%;
+    border-radius: 1.8vmax;
+    display: flex;
+    align-content: center;
+    flex-direction:column;
+    width: 50vmax;
+    height: 25vmax;
+}
+.output{
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    padding:2%;
+    border-radius: 2vmax;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    flex-basis: 25vmax;
+    flex-grow: 1;
+    background-color:white;
+    align-self: center;
+    max-width: 40vmax;
+    
+}
+
+textarea{
+    height: 100%;
+    border:none;
+    resize: none;
+    background-color:#F3F5FC;
+    font-size: 1.5vmax;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+}
+#carinha{
+    height: 10vmax;
+}
+.outputbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    border-radius: 1vmax;
+    padding:1vmax;
+    width: 80%;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+    margin: 1vmin;
+}
+button:hover{
+    scale: 0.95;
+}
+#encriptar{
+    background-color: #0A3871;
+    color: #ffffff
+}
+#resultado {
+    display: none;
+    width: 100%;
+    height: 25vmax;
+    background-color: white;
+    font-size: 1.3vmax;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+}
+#copiar{
+    display: none;
+    justify-content: center;
+}
+footer{
+    padding: 1vmax;
+    margin: 0;
+    padding-bottom: 0;
+}
+footer h2{
+    font-size: 1.2vmax;
+}
+footer p{
+    font-size: 1vmax;
+}
+
